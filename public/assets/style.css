@@ -1,0 +1,20 @@
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+form input,
+form textarea {
+  background-color: #ddd;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+form input[type="submit"] {
+  background-color: green;
+  cursor: pointer;
+  color: #fff;
+}
